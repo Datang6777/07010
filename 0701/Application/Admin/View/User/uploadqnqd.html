@@ -1,0 +1,33 @@
+<include file="public/header"/>
+
+<form action="http://up.qiniu.com" method="post" enctype="multipart/form-data" onsubmit="return setFileName();" >
+    <table>
+
+        <tr>
+            <td>文件（小于4MB）:</td>
+            <td><input id="id_file" name="file" type="file" />
+                <input id="id_token" name="token" type="hidden" />
+                <input id="id_key" name="key"  type="hidden" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="上传"/></td>
+        </tr>
+    </table>
+</form>
+<script type="text/javascript">
+    $url = '{:U("home/User/getToken")}';
+    $.get($url, function($data){
+        // console.log($data);
+        $("#id_token").val($data);
+    });
+    function setFileName()
+    {
+        var filename = ($("#id_file").val());
+        var parts = filename.split(".");
+        var ext = parts[parts.length-1];
+        $("#id_key").val(parseInt(10000000+90000000*Math.random())+"."+ext);
+
+        return true;
+    }
+</script>
+<include file="public/footer"/>

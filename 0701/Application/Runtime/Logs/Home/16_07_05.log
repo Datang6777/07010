@@ -1,0 +1,88 @@
+[ 2016-07-05T12:56:35+08:00 ] ::1 /07010/0701/index.php/home/index/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\07010\0701\Application\Home\Controller\IndexController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.2027s ]
+SQL: SELECT * FROM `qz_cate` WHERE ( is_show=1 ) ORDER BY ord DESC  [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0587s ]
+SQL: SELECT `aid`,`title`,`update_time` FROM `qz_article` WHERE `is_show` = 1 ORDER BY update_time DESC,ord DESC,clicks DESC  [ RunTime:0.0004s ]
+SQL: SELECT aid,title,top,good,content FROM qz_article WHERE is_show = 1 && cid = 11 [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qz_tags` [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `qz_tags_article` [ RunTime:0.0388s ]
+SQL: SELECT tid,tag_name FROM qz_tags WHERE is_show = 1 ORDER BY ord DESC,clicks DESC [ RunTime:0.0003s ]
+SQL: SELECT tid,count(*) as count FROM qz_tags_article GROUP BY tid [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.023119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.093024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.093150s ]
+
+[ 2016-07-05T12:56:39+08:00 ] ::1 /07010/0701/index.php/home/index/mylist/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\07010\0701\Application\Home\Controller\IndexController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `qz_cate` WHERE ( is_show=1 ) ORDER BY ord DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0036s ]
+SQL: SELECT aid,title,top,good,content FROM qz_article WHERE is_show = 1 && cid = 1 [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] include(public/tags.php): failed to open stream: No such file or directory E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 85 行.
+NOTIC: [2] include(): Failed opening 'public/tags.php' for inclusion (include_path='.;C:\php\pear') E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 85 行.
+NOTIC: [8] Undefined index: update_time E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 103 行.
+NOTIC: [8] Undefined index: author E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 103 行.
+NOTIC: [8] Undefined index: cate E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 103 行.
+NOTIC: [8] Undefined index: clicks E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-07-05T12:57:01+08:00 ] ::1 /07010/0701/index.php/home/index/mylist/cid/show.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\07010\0701\Application\Home\Controller\IndexController.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qz_cate` WHERE ( is_show=1 ) ORDER BY ord DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0038s ]
+SQL: SELECT aid,title,top,good,content FROM qz_article WHERE is_show = 1 && cid = 0 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [2] include(public/tags.php): failed to open stream: No such file or directory E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 85 行.
+NOTIC: [2] include(): Failed opening 'public/tags.php' for inclusion (include_path='.;C:\php\pear') E:\wamp\www\07010\0701\Application\Runtime\Cache\Home\3aa129aef453e6341ee14940adc60365.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+

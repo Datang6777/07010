@@ -1,0 +1,1351 @@
+[ 2016-07-03T18:15:44+08:00 ] ::1 /0701/index.php/admin/index/mylist/cid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:mylist
+
+[ 2016-07-03T18:16:53+08:00 ] ::1 /0701/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:17:32+08:00 ] ::1 /0701/index.php/admin/View/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:View
+
+[ 2016-07-03T18:19:49+08:00 ] ::1 /0701/index.php/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-03T18:20:44+08:00 ] ::1 /0701/index.php/admin/cate/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:list
+
+[ 2016-07-03T18:21:02+08:00 ] ::1 /0701/index.php/admin/cate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\0701\Application\Admin\Controller\CateController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Cate/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:21:15+08:00 ] ::1 /0701/index.php/admin/tag/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_tags` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_tags` ORDER BY ord desc,tid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Tag/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:21:17+08:00 ] ::1 /0701/index.php/admin/system/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/System/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:21:18+08:00 ] ::1 /0701/index.php/admin/tag/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qz_tags` ORDER BY ord desc,tid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Tag/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:21:19+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:21:26+08:00 ] ::1 /0701/index.php/admin/article/update/aid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:24:07+08:00 ] ::1 /0701/index.php/admin/article/update_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: UPDATE `qz_article` SET `title`='fread',`author`='DaTang',`content`='<?php
+    $filename = \"/usr/local/something.txt\";
+    $handle = fopen($filename, \"r\");//读取二进制文件时，需要将第二个参数设置成\'rb\'
+    
+    //通过filesize获得文件大小，将整个文件一下子读到一个字符串中
+    $contents = fread($handle, filesize ($filename));
+    fclose($handle);
+?>',`ord`='0',`is_show`='1',`cid`='2' WHERE ( aid=7 ) [ RunTime:0.0030s ]
+
+[ 2016-07-03T18:24:07+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:24:59+08:00 ] ::1 /0701/index.php/admin/article/update/aid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:25:07+08:00 ] ::1 /0701/index.php/admin/article/delete/aid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0050s ]
+SQL: DELETE FROM `qz_article` WHERE ( aid=6 ) [ RunTime:0.0030s ]
+
+[ 2016-07-03T18:25:07+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:25:11+08:00 ] ::1 /0701/index.php/admin/article/update/aid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:25:49+08:00 ] ::1 /0701/index.php/admin/article/update_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0050s ]
+SQL: UPDATE `qz_article` SET `title`='函数curl的使用',`author`='D',`content`='  起先cURL是做为一种命令行工具设计出来的，比较幸运的是，php也支持cURL了。通过cURL这个利器，我们能在php程序中自由地发送HTTP请求到某个url来获取或者提交数据，并且支持其它多种协议，比如FTP，Telnet以及SMTP等。在这篇博文中，我将简述下，在php中具体怎么使用cURL来处理一些事情。
+cURL的优势
+       你也许会说，在php中可以很容易的获取某个url的内容，只要通过file_get_contents，file或者readfile函数就能轻松实现，根本不必使用cURL:
+    $content = file_get_contents(\"http://www.360weboy.com\"); 
+    $lines = file(\"http://www.360weboy.com\"); 
+    readfile(\"http://www.360weboy.com\"); 
+        没错，以上函数在某些情况下使用起来确实很方便，但是我感觉这几个函数不够灵活，也没法进行错误处理。而且，如果遇到要在php程序中向某个服务器提交表单数据，上传文件，处理cookies或者认证等任务时，以上三个函数根本无法胜任。这个时候，cURL就体现它的价值了。
+        cURl不但支持很多的网络协议，而且提供了关于url请求的具体信息，很强大！
+cURL的简单使用步骤
+要使用cURL来发送url请求，具体步骤大体分为以下四步：
+初始化
+设置请求选项
+执行一个cURL会话并且获取相关回复
+释放cURL句柄,关闭一个cURL会话
+    // 1. 初始化一个cURL会话 
+          $ch = curl_init(); 
+    // 2. 设置请求选项, 包括具体的url 
+          curl_setopt($ch, CURLOPT_URL, \"http://www.360weboy.com\"); 
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //1-如果成功,会将http响应的结果返回,不自动输出任何内容,如果失败返回false,返回的结果就是第3步中的$response
+          curl_setopt($ch, CURLOPT_HEADER, 0); //是否返回头信息 0-否 1-是
+    // 3. 执行一个cURL会话并且获取相关回复 
+          $response = curl_exec($ch);//执行后可返回结果,如果为curl_setopt($ch, CURLOPT_RETURNTRANSFER, 0);,将不会返回http响应的结果
+    // 4. 释放cURL句柄,关闭一个cURL会话 
+          curl_close($ch); 
+
+                    cURL之所以强大，正是体现在第二个步骤中。你可以通过curl_setopt灵活地设置请求选项，这里面有很多的可选项，具体可以参考http://cn2.php.net/manual/zh/function.curl-setopt.php
+错误处理
+在上述代码中，你也可以增加错误处理的代码：
+    $response = curl_exec($ch); 
+    if ($response === FALSE) { 
+        echo \"cURL 具体出错信息: \" . curl_error($ch); 
+    } 
+        注意了，在做上述判断时务必要使用===，因为请求的回复可能是空字符串，curl在请求出错的情况下回返回FALSE值，所以我们必须使用===，而不是==。
+获取cURL请求的具体信息
+在执行一个cURL请求后，你也可以使用curl_getinfo获取该请求的具体信息:
+    curl_exec($ch); 
+    $curl_info= curl_getinfo($ch); 
+    echo \"收到的http回复的code为：{$curl_info[\'http_code\']}\"; 
+上述$curl_info是一个关联数组，可以从中获取很多的具体请求信息。参考http://cn2.php.net/manual/zh/function.curl-getinfo.php
+使用cURL发送Post请求
+我们在前面说过，在向某个url发送get请求的话，没有必要使用cURL来发送get请求，可以使用比较便捷的file_get_contents函数来完成请求。但是，一般地，我们在提交某个表单的时候，数据是通过post请求的内容区域来提交的，而不是通过url参数来传递的, 这种情况下，我们应该使用灵活的cURL来模拟发送post请求。
+现在，让我们使用cURL来模拟发送一个post请求到post.php脚本，提交几个数据到post.php，然后在post.php中输出post请求中的数据。示例代码如下:
+    $url = \"http://www.360weboy.me/post.php\"; 
+    $post_data = array ( 
+	\"blog_name\" => \"360weboy\", 
+	\"blog_url\" => \"http://www.360weboy.com\", 
+	\"action\" => \"Submit\" 
+    ); 
+    $ch = curl_init(); 
+    curl_setopt($ch, CURLOPT_URL, $url); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果成功,只将结果返回,不自动输出任何内容,如果失败返回false
+    // 设置请求为post类型 
+    curl_setopt($ch, CURLOPT_POST, 1); 
+    // 添加post数据到请求中 
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data); 
+    // 执行post请求，获得回复 
+    $response= curl_exec($ch); 
+    curl_close($ch); 
+    echo $response; 
+        以上请求发送到post.php中后，通过print_r($_POST)输出后，以上示例代码会输出如下回复：
+    Array ( 
+	[blog_name] => 360weboy 
+	[blog_url] => http://www.360weboy.com 
+	[action] => Submit 
+    ) 
+         正如我们看到的，cURL成功发送post请求到post.php，提交了一些数据，并且收到了相应的来自post.php的回复，最后输出回复。上例虽然简单，但是充分演示了cURL发送post请求的便捷及强大之处，你可以在curl_setopt上做文章。
+文件上传
+        下面来看下如果通过cURL发送post请求来实现文件上传。就拿深入浅出PHP下的文件上传中的文件上传例子来演示，在深入浅出php下的文件上传中，是通过表单的提交来实现文件上传的，那么通过cURL怎么来实现呢?
+    $url = \"http://www.360weboy.me/upload.php\"; 
+    $post_data = array ( \"attachment\" => \"@E:/jackblog/boy.jpg\" ); 
+    //初始化cURL会话 
+    $ch = curl_init(); 
+    //设置请求的url 
+    curl_setopt($ch, CURLOPT_URL, $url); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果成功,只将结果返回,不自动输出任何内容,如果失败返回false
+    //设置为post请求类型 
+    curl_setopt($ch, CURLOPT_POST, 1); 
+    //设置具体的post数据 
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data); 
+    $response = curl_exec($ch); 
+    curl_close($ch); 
+    print_r($response); 
+        通过以上示例代码，可以将我本地机器上的boy.jpg上传到本地服务器的upload.php中，如果在upload.php输出上传的具体信息的话，以上示例代码最后的输出的回复为：
+    Array ( 
+	[attachment] => Array ( 
+				[name] => boy.jpg 
+				[type] => application/octet-stream 
+				[tmp_name] => D:\\xampp\\tmp\\phpF27D.tmp 
+				[error] => 0 
+				[size] => 11490 
+			) 
+     ) 
+         由此可见，如果你要通过cURL来上传文件的话，只需要将上传的文件路径作为post数据设置到curl请求中，并且在路径前面加上@符合。
+文件下载
+        上述将了文件上传，同样的也可以使用curl来自动地完成文件的下载以及保存。有一点要补充下，在执行一个curl请求时，如果你需要获取返回的内容，而不是直接输出返回的内容的话，别忘记使用下面的代码设置，因为curl的默认是输出请求的回复内容:
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+        假如在360weboy的服务器根目录下面有一个test.zip文件，我们需要将其下载下来，并且保存到本地文件中，就可以尝试使用下面的代码来实现：
+    //设置请求的下载文件的url 
+    $url = \'http://www.360weboy.com/test.zip\'; 
+    //保存到本地的文件路径 
+    $path = \'local/path/to/test.zip\'; 
+    //初始化请求，设置请求，获取回复,关闭会话 
+    $ch = curl_init($url); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); //如果成功,只将结果返回,不自动输出任何内容,如果失败返回false
+    $data = curl_exec($ch); 
+    curl_close($ch); 
+    //将文件内容写入本地文件 
+    file_put_contents($path, $data); 
+        注意：我以上省略了错误处理方面的代码，只是简单做个示例, 在实际中，你还需要通过curl_getinfo函数来进行错误处理!
+       上述代码对于下载比较大型的文件是不适用的，因为需要先将文件读取到内存中，等所有内容都读取完毕，然后再写入到本地硬盘中。即使php中设置的memory limit非常大，这种情况对性能的影响也是很大的。所以，我们对于大型文件的下载，应该让curl来接管这个任务，实现边下载，边写入的处理，这样的话，就没什么问题了。请看下述代码:
+    $url = \'http://www.360weboy.com/test.zip\'; 
+    $path = \'local/path/to/test.zip\'; 
+    // 打开本地文件 $fp = fopen($path, \'w\'); 
+    // 告诉curl本地文件句柄 
+    $ch = curl_init($url); 
+    curl_setopt($ch, CURLOPT_FILE, $fp); 
+    curl_exec($ch); curl_close($ch); fclose($fp); 
+        在上述代码中，我们先打开个本地文件，并将文件句柄设置到curl中，然后让curl一边读取远程数据，一边写入到本地文件中。因为我们不需要在程序中获取远程回复的内容了，所以只要执行请求就可以。
+HTTP 验证
+        如果服务器端需要验证请求，可以通过类似一下示例代码来实现:
+    $url = \"http://www.360weboy.com/users/\"; 
+    $ch = curl_init(); 
+    curl_setopt($ch, CURLOPT_URL, $url); //设置请求的url
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果成功,只将结果返回,不自动输出任何内容,如果失败返回false
+    // 设置用户名以及密码 
+    curl_setopt($ch, CURLOPT_USERPWD, \"username:password\"); 
+    // 设置重导向 
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1); 
+    curl_setopt($ch, CURLOPT_UNRESTRICTED_AUTH, 1); 
+    $response = curl_exec($ch); curl_close($ch); 
+通过代理发送请求
+        cURL还可以通过代理服务器来向发送请求，请看一下示例代码:
+    $ch = curl_init(); 
+    curl_setopt($ch, CURLOPT_URL,\'http://www.360weboy.com\'); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果成功,只将结果返回,不自动输出任何内容,如果失败返回false
+    // 设置代理ip地址 
+    curl_setopt($ch, CURLOPT_PROXY, \'222.73.173.50:8080\'); 
+    // 要验证的话，这里设置用户名以及密码 
+    curl_setopt($ch, CURLOPT_PROXYUSERPWD,\'username:password\'); 
+    $response = curl_exec($ch); 
+    curl_close ($ch); 
+发送json数据
+        最后，我们来看下通过cURL来想服务器端发送json数据。具体的代码如下：
+    $url = \'http://www.360weboy.me/json.php\'; 
+    // 建立json字符串 
+    $data = array(
+	\'site\' => \'360weboy\', 
+	\'url\' => \'http://www.360weboy.com\',
+	\'email\'=>\'360weboy@gmail.com\'
+    ); 
+    $json_string = json_encode($data); 
+    $ch=curl_init($url); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //如果成功,只将结果返回,不自动输出任何内容,如果失败返回false
+    // 通过post请求发送上述json字符串 
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, \"POST\"); 
+    curl_setopt($ch, CURLOPT_POSTFIELDS, array(\'data\'=>$json_string)); 
+    $response = curl_exec($ch); 
+    curl_close($ch); 
+    echo $response; 
+       大家可以看到，上述请求是发送到我的本地服务器的json.php下，我在该文件中使用json_decode来将接受到的json字符串转换为对象，然后输出其中的email字段，代码如下:
+    $json_data = json_decode($_POST[\'data\']); 
+    echo $json_data->email; 
+        在上述代码中接受的json字符串为:
+    
+    \'{\"site\":\"360weboy\",\"url\":\"http:\\/\\/www.360weboy.com\",\"email\":\"360weboy@gmail.com\"}\'
+    
+         经过json_decode以后，就转换为php中的数据格式，成为了一个对象，所以可以通过$json_data->email来访问其中email字段的值，最后也就是输出360weboy@gmail.com。你可以使用上述代码测试一下。
+        如果通过以下php数组生成json字符串的话:
+    $data = array(\'360weboy\', \'http://www.360weboy.com\', \'360weboy@gmail.com\'); 
+        所生成的json字符串如下：
+    \'[\"360weboy\",\"http:\\/\\/www.360weboy.com\",\"360weboy@gmail.com\"]\' 
+        上述json字符串在经过json_decode处理后，就会变成php中的数组格式，如果要获取email的话，就可以通过$json_data[2]来访问。
+总结
+          在这篇博文中只是列举了一些cURL的用途，其中示例代码是比较简单的。但是，相信你看完后应该有使用cURL的冲动了吧! 那就自己去找相关资料，手册进行测试吧！
+好了，就写到这里吧！谢谢你的耐心阅读！',`ord`='0',`is_show`='1',`cid`='6' WHERE ( aid=5 ) [ RunTime:0.0040s ]
+
+[ 2016-07-03T18:25:49+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:25:59+08:00 ] ::1 /0701/index.php/admin/article/update/aid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:26:58+08:00 ] ::1 /0701/index.php/admin/article/update_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: UPDATE `qz_article` SET `title`='php加图片水印',`author`='DaTang',`content`='/*给图片加文字水印的方法*/
+$dst_path = \'http://f4.topitme.com/4/15/11/1166351597fe111154l.jpg\';//保证路径正确
+$dst = imagecreatefromstring(file_get_contents($dst_path));
+/*imagecreatefromstring()--从字符串中的图像流新建一个图像，返回一个图像标示符，其表达了从给定字符串得来的图像
+图像格式将自动监测，只要php支持jpeg,png,gif,wbmp,gd2.*/
+ 
+$font = \'C://test.ttc\';//保证路径正确
+
+$black = imagecolorallocate($dst, 0, 0, 0);
+imagefttext($dst, 20, 0, 100, 300, $black, $font, \'Hello wor123123123123123123123123123ldwor123123123123123123123123123ldwor123123123123123123123123123ldwor123123123123123123123123123ld!\');
+/*imagefttext($img,$size,$angle,$x,$y,$color,$fontfile,$text)
+$img由图像创建函数返回的图像资源
+size要使用的水印的字体大小
+angle（角度）文字的倾斜角度，如果是0度代表文字从左往右，如果是90度代表从上往下
+x,y水印文字的第一个文字的起始位置
+color是水印文字的颜色
+fontfile，你希望使用truetype字体的路径*/
+list($dst_w,$dst_h,$dst_type) = getimagesize($dst_path);
+/*list(mixed $varname[,mixed $......])--把数组中的值赋给一些变量
+像array()一样，这不是真正的函数，而是语言结构，List()用一步操作给一组变量进行赋值*/
+/*getimagesize()能获取到什么信息？
+getimagesize函数会返回图像的所有信息，包括大小，类型等等*/
+switch($dst_type){
+    case 1://GIF
+        header(\"content-type:image/gif\");
+        imagegif($dst);
+        break;
+    case 2://JPG
+        header(\"content-type:image/jpeg\");
+        imagejpeg($dst);
+        break;
+    case 3://PNG
+        header(\"content-type:image/png\");
+        imagepng($dst);
+        break;
+    default:
+        break;
+    /*imagepng--以PNG格式将图像输出到浏览器或文件
+    imagepng()将GD图像流(image)以png格式输出到标注输出（通常为浏览器），或者如果用filename给出了文件名则将其输出到文件*/
+}
+imagedestroy($dst);',`ord`='0',`is_show`='1',`cid`='2' WHERE ( aid=4 ) [ RunTime:0.0040s ]
+
+[ 2016-07-03T18:26:59+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-03T18:27:06+08:00 ] ::1 /0701/index.php/admin/article/update/aid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:28:09+08:00 ] ::1 /0701/index.php/admin/article/update_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: UPDATE `qz_article` SET `title`='html表单',`author`='DaTang',`content`='在Javascript 中，页面上的每一对<form> 标记都解析为一个对象，即form 对象。
+
+可以通过document.forms 获取以源顺序排列的文档中所有form 对象的集合。
+
+如果一个表单对象定义如下：
+<form name=\"frm1\" method=\"post\" action=\"login.aspx\">
+获得该表单对象的方法：
+  i>  document.forms[\"frm1\"];   // 根据name属性值
+ ii>  document.forms[0];        // 根据索引号
+iii>  document.frm1;            // 直接根据name值获得对象
+ 
+
+form 表单应该注意的属性：
+
+elements：获取以源顺序排列的给定表单中所有控件的集合。但是<input  type=\"image\" > 对象不在此集合内。
+
+var txtName = myform.elements[0];         //获得表单的第一个元素
+var txtName = myform.elements[\"txtName\"]; //获得name属性值为\"txtName\"的元素
+var txtName = myform.elements.txtName;    //获得name属性值为\"txtName\"的元素
+ 
+
+enctype：设置或获取表单的多用途网际邮件扩展(MIME) 编码。
+
+                    这个属性的默认值为：application/x-www-form-urlencoded
+
+                    如果要上传文件，则应该设置为：multipart/form-data
+
+ 
+
+form 表单中的<label> 标记：
+
+ 
+
+每一个表单元素的文字描述都应该使用<label> 标记！
+
+       该标记用于将文字绑定到对应的表单元素上，它的for 属性指定它所要绑定的表单元素id 值。绑定后单击该文字，鼠标将聚焦到对应的文本框中或选中对应的选项。
+
+       若安装了某些桌面主题，某些表单元素还会变换颜色来予以提示，这大大提高了用户体验。
+
+示例代码：
+
+<form method=\"post\" name=\"frm1\">
+    <label for=\"txt\">点我将聚焦到文本框</label>
+    <input type=\"text\" id=\"txt\" name=\"myname\">
+<br/>
+    <label for=\"rdo\">点我将选中单选框</label>
+    <input type=\"radio\" id=\"rdo\" name=\"male\"/>
+<br/>
+    <label for=\"cbo\">点我将选中复选框</label>
+    <input type=\"checkbox\" id=\"cbo\" name=\"hobby\">
+</form>效果如下：
+点我将聚焦到文本框 
+ 
+点我将选中单选框  
+点我将选中复选框
+注意：
+
+i >    每个表单元素应当尽量使用<label>标签来提高用户体验；
+
+ii >   每个表单元素应当分配 name 属性  和 id 属性。
+
+        name 属性：用来将数据提交到服务器；
+
+               id 属性：用来在客户端做相应的操作；如：<label>标签的绑定、CSS 选择器的使用等。
+
+                                ( name 属性和 id 属性应该尽可能地使用相同的或相关的值。)
+
+ 
+
+在客户端，Javascript 对表单及表单元素的操作，更青睐于使用其name 属性。
+
+因为，对于某些特定的表单元素(如：单选按钮等)，使用其name 属性更易于获得元素值，也更方便向服务器传送数据！
+
+ 
+
+Javascript 操作form 表单元素，比较少用的属性：
+
+defaultChecked 设置或获取复选框或单选钮的状态。
+defaultValue 设置或获取对象的初始内容。
+disabled 设置或获取控件的状态。
+
+ 
+
+提交表单
+
+提交表单的示例：
+
+  <form name=\"frm\" method=\"post\" action=\"javascript:alert(\'提交成功！\');\">
+     <input type=\"button\" value=\"提交功能\" 
+            onclick=\"document.forms[\'frm\'].submit();\">
+     <input type=\"button\" value=\"禁用反复提交\" 
+            onclick=\"this.disabled=true; this.form.submit();\">
+  </form>效果如下：
+提交功能 禁用反复提交
+注意：
+
+i >   如果使用submit( ) 方法来提交表单，则不会触发<form> 表单元素的onsubmit 事件，
+
+       这是与用<input  type=\"submit\">提交元素不同的地方；
+
+ii >  可以在按钮的提交或点击事件中，使用disabled 属性来禁用用户反复点击提交按钮的行为，
+
+       减少服务器的响应负担；
+
+ 
+
+设置文本框
+
+i >   控制文本框的字符个数
+
+<script language=\"javascript\">
+function LessThan(_textArea){
+    //返回文本框字符个数是否符号要求的boolean值
+    return _textArea.value.length < _textArea.getAttribute(\"maxlength\");
+}
+</script>
+<label for=\"name\">文本框:</label>
+<input type=\"text\" name=\"name\" id=\"name\" value=\"姓名\" maxlength=\"10\"></p>
+<br>
+<label for=\"comments\">多行文本框:</label>
+<textarea name=\"comments\" id=\"comments\" cols=\"40\" rows=\"4\" maxlength=\"50\" onkeypress=\"return LessThan(this);\"></textarea>
+注意：多行文本框<textarea> 中的maxlength 为自定义属性；如果在<textarea> 中输入字符时，换行也算一个字符；
+
+ 
+
+ii >  鼠标经过时，自动选中文本框
+
+<script language=\"javascript\">
+window.onload = function(){
+    var txtName = document.getElementsByName(\"myName\")[0];
+    txtName.onmouseover = function(){
+       this.focus();
+    };
+    txtName.onfocus = function(){
+       this.select();
+    };
+}
+</script>
+<INPUT TYPE=\"text\" NAME=\"myName\" value=\"默认值被选中\" />
+实现了行为与结构的分离。
+
+ 
+
+设置单选按钮
+
+获取选中的单选按钮 & 设置单选按钮被选中
+
+<script language=\"javascript\">
+//获取选中项
+function getChoice(){
+    var oForm = document.forms[\"myForm1\"];
+    //radioName是单选按钮的name属性值
+    var aChoices = oForm.radioName;
+    //遍历整个单选项表
+    for(i=0;i<aChoices.length;i++)   
+        if(aChoices[i].checked)   
+            break; //如果发现了被选中项则退出
+    alert(\"您选中的是：\"+aChoices[i].value);
+}
+//设置选中项
+function setChoice(_num){
+    var oForm = document.forms[\"myForm1\"];
+    //radioName是单选按钮的name属性值
+    oForm.radioName[_num].checked = true; //其它选项的checked值会自动设置为false
+}
+</script>
+//调用代码
+<input type=\"button\" value=\"获取选中项\" onclick=\"getChoice();\" />
+<input type=\"button\" value=\"设置第1项被选中\" onclick=\"setChoice(0);\" />
+需要保证同一组单选按钮的name 属性值相同即可。
+
+ 
+
+设置复选框
+
+设置复选框的“全选”、“全不选”及“反选”功能
+
+<script language=\"javascript\">
+function changeBoxes(_action){
+    var myForm = document.forms[\"myForm1\"];
+    //myCheckbox 为所有复选框的name属性值
+    var oCheckBox = myForm.myCheckbox;
+ 
+    for(var i=0;i<oCheckBox.length;i++)    //遍历每一个选项
+        if(_action < 0)//反选
+            oCheckBox[i].checked = !oCheckBox[i].checked;
+        else 
+            //_action为1是则全选,为0时则全不选
+            oCheckBox[i].checked = _action;
+}
+</script>
+<form name=\"myForm1\">
+<input type=\"checkbox\" name=\"myCheckbox\">aa
+<input type=\"checkbox\" name=\"myCheckbox\">bb
+<input type=\"button\" value=\"全选\" onclick=\"changeBoxes(1);\" />
+<input type=\"button\" value=\"全不选\" onclick=\"changeBoxes(0);\" />
+<input type=\"button\" value=\"反选\" onclick=\"changeBoxes(-1);\" />
+</form>
+ 
+
+设置下拉列表框
+
+下拉列表框的multiple 属性用于设置或获取下拉列表框是否可以选中多个选项。
+
+下拉列表框默认只能选中一项，若要设置为可以选中多项，则<select  multiple = \"multiple\"> 即可。
+
+type 属性：javascript 语言根据type 属性的值获得下拉列表框select 控件的类型。
+
+type 属性的值为：select-multiple 或 select-one （注意：下拉列表框的类型由multiple 属性控制）
+
+i >  查看下拉列表框的选项（单选项 & 多选项）
+
+<script language=\"javascript\">
+function getSelectValue(_myselect){
+    var oForm = document.forms[\"myForm1\"];
+    //根据参数(下拉列表框的name属性值)获得下拉菜单项
+    var oSelectBox = oForm.elements[_myselect];
+    //判断是单选还是多选
+    if(oSelectBox.type == \"select-one\"){
+        var iChoice = oSelectBox.selectedIndex;    //获取选中项
+        alert(\"单选，您选中了\" + oSelectBox.options[iChoice].text);
+    }
+    else{
+        var aChoices = new Array();
+        //遍历整个下拉菜单
+        for(var i=0;i<oSelectBox.options.length;i++)
+            if(oSelectBox.options[i].selected)//如果被选中
+              //压入到数组中
+              aChoices.push(oSelectBox.options[i].text);
+        //输出结果
+        alert(\"多选，您选了：\" + aChoices.join());
+    }
+}
+</script>
+<form method=\"post\" name=\"myForm1\">
+<select id=\"mysel\" name=\"mysel\" multiple=\"multiple\" style=\"height:60px;\">
+    <option value=\"a\">AA</option>
+    <option value=\"b\">BB</option>
+    <option value=\"c\">CC</option>
+</select>
+<input type=\"button\" onclick=\"getSelectValue(\'mysel\')\" value=\"查看选项\" />
+ 
+
+ii >  添加下拉列表框的选项
+
+追加新选项到末尾
+
+<script language=\"javascript\">
+function AddOption(Box){ //追加选项到末尾
+    var oForm = document.forms[\"myForm1\"];
+    var oBox = oForm.elements[Box];
+    var oOption = new Option(\"乒乓球\",\"Pingpang\");
+    oBox.options[oBox.options.length] = oOption;
+}
+</script>
+插入新选项到指定位置
+
+<script language=\"javascript\">
+function AddOption(_select,_num){
+    var oForm = document.forms[\"myForm1\"];
+    var oBox = oForm.elements[_select];
+    var oOption = new Option(\"text值\",\"value值\");
+    //兼容IE7，先添加选项到最后，再移动
+    oBox.options[oBox.options.length] = oOption;
+    oBox.insertBefore(oOption,oBox.options[_num]);
+}
+</script>
+<input type=\"button\" value=\"添加乒乓球\" onclick=\"AddOption(\'myselect\',1);\" />
+注意：如果直接使用insertBefore( ) 方法插入选项，将会在IE 中出现一个空选项的bug。为了解决IE 的这个bug ，只能使用先追加新选项到末尾，然后再使用insertBefore( ) 方法将其移动到相应的位置。
+
+ 
+
+类似这样：为了跳过浏览器的某些bug 或限制，实现预定目的的小技巧，通常称之为hack 。
+
+ 
+
+iii >  替换某一选项
+
+<script language=\"javascript\">
+//替换选项
+function ReplaceOption(_select,_num){
+    var oForm = document.forms[\"myForm1\"];
+    var oBox = oForm.elements[_select];
+    var oOption = new Option(\"text值\",\"value值\");
+    oBox.options[_num] = oOption; //替换第_num 个选项
+}
+</script>
+<input type=\"button\" value=\"替换选项\" onclick=\"ReplaceOption(\'selName\',1);\" />
+通过oBox.options[_num] = oOption 直接将创建的新选项替换掉指定位置的选项。
+
+ 
+
+iv >  删除某一选项
+
+<script language=\"javascript\">
+function RemoveOption(_select,_num){
+    var oForm = document.forms[\"myForm1\"];
+    var oBox = oForm.elements[_select];
+    oBox.options[_num] = null;    //删除选项
+}
+</script>
+</head>
+<body>
+<select id=\"mysel\" name=\"mysel\" multiple=\"multiple\">
+......
+<input type=\"button\" value=\"删除选项\" onclick=\"RemoveOption(\'mysel\',1);\" />
+直接通过oBox.options[_num] = null 删除选项。',`ord`='0',`is_show`='1',`cid`='1' WHERE ( aid=3 ) [ RunTime:0.0080s ]
+
+[ 2016-07-03T18:28:10+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:28:51+08:00 ] ::1 /0701/index.php/admin/article/update/aid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-03T18:29:08+08:00 ] ::1 /0701/index.php/admin/article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:29:16+08:00 ] ::1 /0701/index.php/admin/article/add_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0030s ]
+SQL: INSERT INTO `qz_article` (`title`,`author`,`content`,`ord`,`is_show`,`cid`) VALUES ('1','1','1','1','0','8') [ RunTime:0.0040s ]
+
+[ 2016-07-03T18:29:16+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:29:19+08:00 ] ::1 /0701/index.php/admin/article/update/aid/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` WHERE ( aid=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: checkeyes D:\wamp\www\0701\Application\Runtime\Cache\Admin\ffdcd5de2d6ef23c1706a32611505a17.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:30:13+08:00 ] ::1 /0701/index.php/admin/article/update_submit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0050s ]
+SQL: UPDATE `qz_article` SET `title`='Linux命令',`author`='DaTang',`content`='开始详细系统的学习linux常用命令，坚持每天一个命令，所以这个系列为每天一个linux命令。学习的主要参考资料为：
+
+　　1.《鸟哥的linux私房菜》
+
+　　2.http://codingstandards.iteye.com/blog/786653
+
+　　3.linux命令五分钟系列 
+
+　　4.其他互联网资料，google，baidu等搜索引擎
+
+一. 文件目录操作命令：
+
+     1.每天一个linux命令(1)：ls命令
+
+     2.每天一个linux命令(2)：cd命令
+
+　  3.每天一个linux命令（3）：pwd命令
+
+     4.每天一个linux命令（4）：mkdir命令
+
+　  5.每天一个linux命令（5）：rm 命令
+
+     6.每天一个linux命令（6）：rmdir 命令
+
+     7.每天一个linux命令（7）：mv命令
+
+　  8.每天一个linux命令（8）：cp 命令
+
+     9. 每天一个linux命令（9）：touch 命令
+
+     10. 每天一个linux命令（10）：cat 命令
+
+     11. 每天一个linux命令(11)：nl命令
+
+     12. 每天一个linux命令(12)：more命令
+
+     13. 每天一个linux命令（13）：less 命令
+
+     14. 每天一个linux命令（14）：head 命令
+
+     15. 每天一个linux命令（15）：tail 命令
+
+ 二. 文件查找命令
+
+      16. 每天一个linux命令（16）：which命令
+
+　　17. 每天一个linux命令（17）：whereis 命令
+
+　　18. 每天一个linux命令（18）：locate 命令
+
+　　19. 每天一个linux命令（19）：find 命令概览
+
+　　20. 每天一个linux命令（20）：find命令之exec
+
+ 　  21. 每天一个linux命令（21）：find命令之xargs
+
+　　22. 每天一个linux命令（22）：find 命令的参数详解
+
+三. 文件和目录属性
+
+　　23. 每天一个linux命令（23）：Linux 目录结构
+
+ 　  24. 每天一个linux命令(24)：Linux文件类型与扩展名
+
+ 　  25. 每天一个linux命令(25)：linux文件属性详解
+
+四. 文件打包上传和下载
+
+　　26. 每天一个linux命令（26）：用SecureCRT来上传和下载文件
+
+　　28. 每天一个linux命令（28）：tar命令
+
+　　32. 每天一个linux命令（32）：gzip命令
+
+五. linux文件权限设置
+
+　　27. 每天一个linux命令（27）：linux chmod命令
+
+　　29. 每天一个linux命令（29）:chgrp命令
+
+　　30. 每天一个linux命令（30）: chown命令
+
+　　31. 每天一个linux命令（31）: /etc/group文件详解
+
+六.磁盘存储相关
+
+　　33. 每天一个linux命令（33）：df 命令
+
+　　34. 每天一个linux命令（34）：du 命令
+
+七.性能监控和优化命令：
+
+　　44.每天一个linux命令（44）：top命令
+
+　　45.每天一个linux命令（45）：free 命令
+
+　　46.每天一个linux命令（46）：vmstat命令
+
+　　47.每天一个linux命令（47）：iostat命令
+
+　　51.每天一个linux命令（51）：lsof命令
+
+ 八. 网络命令：
+
+　　52.每天一个linux命令（52）：ifconfig命令 
+
+　　53.每天一个linux命令（53）：route命令
+
+　　54.每天一个linux命令（54）：ping命令
+
+　　55.每天一个linux命令（55）：traceroute命令
+
+　　56.每天一个linux命令（56）：netstat命令
+
+　　57.每天一个linux命令（57）：ss命令
+
+　　58.每天一个linux命令（58）：telnet命令
+
+　　59.每天一个linux命令（59）：rcp命令
+
+　　60.每天一个linux命令（60）：scp命令
+
+其他命令：
+
+　　35.每天一个linux命令（35）：ln 命令
+
+　　36.每天一个linux命令（36）：diff 命令
+
+　　37.每天一个linux命令（37）：date命令
+
+　　38.每天一个linux命令（38）：cal 命令
+
+　　39.每天一个linux命令（39）：grep 命令
+
+　　40.每天一个linux命令（40）：wc命令
+
+　　41.每天一个linux命令（41）：ps命令
+
+　　48.每天一个linux命令（48）：watch命令
+
+　　49.每天一个linux命令（49）：at命令
+
+　　50.每天一个linux命令（50）：crontab命令
+
+　　',`ord`='1',`is_show`='1',`cid`='8' WHERE ( aid=8 ) [ RunTime:0.0040s ]
+
+[ 2016-07-03T18:30:13+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-03T18:30:16+08:00 ] ::1 /0701/index.php/admin/article/delete/aid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0050s ]
+SQL: DELETE FROM `qz_article` WHERE ( aid=7 ) [ RunTime:0.0050s ]
+
+[ 2016-07-03T18:30:16+08:00 ] ::1 /0701/index.php/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qz_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qz_article` ORDER BY ord desc,aid desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qz_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qz_cate` ORDER BY ord desc,cid desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Article/Public.footer.html): failed to open stream: No such file or directory D:\wamp\www\0701\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

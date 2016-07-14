@@ -1,0 +1,111 @@
+<include file="public/header" />
+<!-- banner -->
+<div class="banner shadow two-nav">
+    首页 > 神技能
+</div>
+<!-- banner end -->
+<!-- content -->
+<div class="content clear">
+    <!-- content left -->
+    <div class="list-right clear">
+        <div class="right shadow f-right no-bor">
+            <p class="title">
+                <span>热门相关/Hot</span>
+            </p>
+            <div class="cont-box">
+                <ul>
+                    <li>
+                        <span class ="top">top</span>
+                        <a href="#">DIV + CSS布局的技巧分享</a>
+                    </li>
+                    <li>
+                        <span class ="hot">hot</span>
+                        <a href="#">DIV + CSS布局的技巧分享</a>
+                    </li>
+                    <li>
+                        <span class ="new">new</span>
+                        <a href="#">DIV + CSS布局的技巧分享</a>
+                    </li>
+                    <li><a href="#">DIV + CSS布局的技巧分享</a></li>
+                    <li><a href="#">DIV + CSS布局的技巧分享</a></li>
+                    <li><a href="#">DIV + CSS布局的技巧分享</a></li>
+                    <li><a href="#">DIV + CSS布局的技巧分享</a></li>
+                    <li><a href="#">DIV + CSS布局的技巧分享</a></li>
+                    <li><a href="#">DIV + CSS布局的技巧分享</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="left shadow f-right">
+            <p class="title">
+                <span>标签云/Tags</span>
+            </p>
+            <div class="cont-box">
+                <?php include 'public/tags.php'; ?>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- content left end -->
+    <!-- content center -->
+
+    <div class="center shadow list-center">
+
+        <div class="cont-box">
+            <ul>
+                <php>
+                    if(count($articles)==0)
+                    {
+                </php>
+                <h2>期待您的加入</h2>
+                <php>
+                    }
+                    else
+                    {
+                </php>
+                <volist name="articles" id="article">
+                    <li>
+                        <p class="list-title">
+                            <a href="show.php">{$article['title']}</a>
+                        </p>
+                        <p class="list-state">
+                            更新时间 :{$article['update_time']|date="Y-m-d",###}} 作者 : {$article['author']} 分类 :  {$article['cate']} 浏览 :
+                            {$article['clicks']}
+                        </p>
+                        <p class="list-desc">
+                            {$article['content']|getSubTitle=###,300}
+                        </p>
+                    </li>
+                </volist>
+                <php>
+                }
+                </php>
+
+            </ul>
+            <php>
+                if(count($articles)>0)
+                {
+            </php>
+            <div class="page">
+                <a href="#">上一页</a>
+                <a href="#">首页</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#" class="on">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">尾页</a>
+                <a href="#">下一页</a>
+                共 800 条
+            </div>
+            <php>
+                }
+            </php>
+        </div>
+    </div>
+    <!-- content center end -->
+
+</div>
+<!-- content end -->
+<include file="public/footer" />

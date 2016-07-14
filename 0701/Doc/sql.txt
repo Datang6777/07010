@@ -1,0 +1,15 @@
+create table qz_blog_user(
+uid int not null auto_increment primary key,
+uname varchar(32) not null default '',
+passwd varchar(32)  not null default '',
+mobile varchar(16) not null default '',
+email  varchar(64) not null default '',
+logo varchar(64) not null default '',
+salt  varchar(6) not null default '',
+gender tinyint not null default '0',
+ctime int not null default '0',
+regip varchar(16) not null default '',
+index(uname),
+unique(mobile),
+unique(email)
+)ENGINE=InnoDB CHARSET=utf8;

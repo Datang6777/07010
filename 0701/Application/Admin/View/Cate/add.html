@@ -1,0 +1,47 @@
+<include file="Public/header" />
+<form method="post" action="{:U('admin/cate/add_submit')}">
+    <div>
+       <span>
+           <label for="cate_name">分类名</label>
+       </span>
+        <span>
+            <input id="cate_name"  required name="cate_name" value=""/>
+        </span>
+    </div>
+    <div>
+        <span>
+            <label for="parent">父分类</label>
+        </span>
+        <span>
+            <select id="parent" name="pid">
+                <option value="0">无</option>
+                <volist id="cate" name="catelist">
+                    <option value="{$cate['cid']}">{$cate['cate_name']}</option>
+                </volist>
+            </select>
+        </span>
+    </div>
+    <div>
+        <span>
+            <label for="order">排序号</label>
+        </span>
+        <span>
+            <input id="order" name="order" value="">
+        </span>
+    </div>
+    <div>
+        <span>
+            <label for="shown1">是否显示</label>
+        </span>
+        <span>
+            <input type="radio" id="shown1" name="shown" value="1">是
+            <input type="radio" id="shown2" name="shown" value="0">否
+        </span>
+    </div>
+    <div>
+            <input type="submit" value="提交">
+    </div>
+
+</form>
+
+<include file="Public.footer" />

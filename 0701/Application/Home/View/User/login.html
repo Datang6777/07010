@@ -1,0 +1,49 @@
+<include file="public/header" />
+<!-- banner -->
+<?php
+header('Content-type:text/html;charset=utf-8');
+?>
+
+<html>
+<head>
+    <link rel="stylesheet" href="">
+
+</head>
+<style type="text/css">
+    .main{
+        text-align: center;
+    }
+    .vcode{
+        height:50px;
+    }
+</style>
+<body>
+
+<center>
+    <img src="" class="logo">
+    <form action="{:U('Home/User/login_submit')}" method="POST">
+        <div>
+            <label for="uname">登录名</label>
+            <input type="text"  required placeholder="用户名/邮箱/手机号"  id="uname" name="uname" value=""/>
+        </div>
+        <div>
+            <label for="password">密码</label>
+            <input type="password"  required id="password" name="password" value=""/>
+        </div>
+
+
+        <input type="checkbox" name="" value="1" />记住登陆
+        <div>
+            <label for="vcode">验证码</label>
+            <input type="text"  required id="vcode" name="vcode" value=""/>
+            <img class="vcode"  src="{:U('Home/User/vcode')}" />
+
+        </div>
+        <input type="submit" value="登录">
+    </form>
+</center>
+
+</body>
+</html>
+<!-- content end -->
+<include file="public/footer" />

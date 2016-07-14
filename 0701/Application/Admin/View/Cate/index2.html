@@ -1,0 +1,25 @@
+<include file="public/header" />
+    <h1>分类管理</h1>
+<hr />
+<a href="">添加</a>
+<hr />
+<table border="1"  width="80%">
+    <tr>
+        <td>编号</td>
+        <td>父类</td>
+        <td>分类名</td>
+        <td>排序</td>
+        <td>是否显示</td>
+    </tr>
+    <?php foreach($catelist as $cate){?>
+    <tr>
+        <td><?php $cate['cid'];?></td>
+        <td><?php $cate['pid'];?></td>
+        <td><?php $cate['cate_name'];?></td>
+        <td><?php $cate['ord'];?></td>
+        <td><?php $cate['is_show'];?></td>
+    </tr>
+    <?php }?>
+
+</table>
+<include file="public/footer" />

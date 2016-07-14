@@ -1,0 +1,7 @@
+<include file="public/header"/>
+<form action="{:U('Admin/User/uploadQiniu')}" enctype="multipart/form-data" method="post" >
+    <label for="photo">头像</label>
+    <input id="photo" type="file" name="photo" />
+    <input type="submit" value="提交" >
+</form>
+<include file="public/footer"/>

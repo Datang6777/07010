@@ -1,0 +1,31 @@
+
+<include file="Public/header" />
+    <h1>标签管理</h1>
+<hr />
+<a href="{:U('admin/tag/add')}">添加</a>
+<hr />
+<table border="1" width="90%">
+    <tr>
+        <td>编号</td>
+        <td>标签名</td>
+        <td>点击量</td>
+        <td>排序号</td>
+        <td>显示</td>
+        <td>操作</td>
+    </tr>
+    <volist name="taglist" id="tag">
+        <tr>
+            <td>{$tag['tid']}</td>
+            <td>{$tag['tag_name']}</td>
+            <td>{$tag['clicks']}</td>
+            <td>{$tag['ord']}</td>
+            <td>{$tag['is_show']?"是":"否"}</td>
+            <td>
+                <a href="{:U('admin/tag/update',array('tid'=>$tag['tid']))}">修改</a>
+                <a href="{:U('admin/tag/delete',array('tid'=>$tag['tid']))}">删除</a>
+            </td>
+        </tr>
+    </volist>
+
+</table>
+<include file="Public.footer" />

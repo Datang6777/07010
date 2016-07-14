@@ -1,0 +1,35 @@
+
+<include file="Public/header" />
+    <h1>文章管理</h1>
+<hr />
+<a href="{:U('admin/article/add')}">添加</a>
+<hr />
+<table border="1" width="90%">
+    <tr>
+        <td>编号</td>
+        <td>标题</td>
+        <td>分类</td>
+        <td>作者</td>
+        <td>内容</td>
+        <td>排序号</td>
+        <td>显示</td>
+        <td>操作</td>
+    </tr>
+    <volist name="articlelist" id="article">
+        <tr>
+            <td>{$article['aid']}</td>
+            <td>{$article['title']}</td>
+            <td>{$article['cate_name']}</td>
+            <td>{$article['author']}</td>
+            <td>{$article['content']}</td>
+            <td>{$article['ord']}</td>
+            <td>{$article['is_show']?"是":"否"}</td>
+            <td>
+                <a href="{:U('admin/article/update',array('aid'=>$article['aid']))}">修改</a>
+                <a href="{:U('admin/article/delete',array('aid'=>$article['aid']))}">删除</a>
+            </td>
+        </tr>
+    </volist>
+
+</table>
+<include file="Public.footer" />
